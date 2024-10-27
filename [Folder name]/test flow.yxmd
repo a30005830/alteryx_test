@@ -1,35 +1,9 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2024.1" RunE2="T">
   <Nodes>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="186" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <NumRows value="1" />
-          <Fields>
-            <Field name="Path" />
-            <Field name="target" />
-          </Fields>
-          <Data>
-            <r>
-              <c>C:\Users\a30005830\AGL Energy\Pricing Engine Replacement - Documents\Development\11 Git Hub\Download\gittest.txt</c>
-              <c />
-            </r>
-          </Data>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
-    </Node>
-    <Node ToolID="21">
+    <Node ToolID="40">
       <GuiSettings>
-        <Position x="402" y="54" />
+        <Position x="210" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -39,13 +13,14 @@
           <Value name="Check Box (182)">False</Value>
           <Value name="Text Box (184)">alteryx_test</Value>
           <Value name="Radio Button (193)">False</Value>
-          <Value name="Drop Down (202)">Path</Value>
-          <Value name="Drop Down (204)">target</Value>
-          <Value name="Radio Button (192)">True</Value>
-          <Value name="Text Box (198)" />
-          <Value name="Radio Button (214)">False</Value>
-          <Value name="Text Box (211)" />
-          <Value name="Text Box (218)" />
+          <Value name="Text Box (244)">C:\Users\a30005830\AGL Energy\Pricing Engine Replacement - Documents\Development\11 Git Hub\Download\gittest.txt</Value>
+          <Value name="Text Box (245)" />
+          <Value name="Radio Button (192)">False</Value>
+          <Value name="Text Box (198)">test_abc</Value>
+          <Value name="Radio Button (214)">True</Value>
+          <Value name="Text Box (239)">C:\Users\a30005830\AGL Energy\Pricing Engine Replacement - Documents\Development\11 Git Hub\Download\test</Value>
+          <Value name="Text Box (240)">main/abc</Value>
+          <Value name="Text Box (248)">test message</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name>Git Hub Commit Macro (2)</Name>
@@ -56,15 +31,10 @@
           <Implicit />
         </Dependencies>
       </Properties>
-      <EngineSettings Macro=".\Git Hub Commit Macro.yxmc" />
+      <EngineSettings Macro="C:\Users\a30005830\AGL Energy\Pricing Engine Replacement - Documents\Development\11 Git Hub\Git Hub Commit Macro.yxmc" />
     </Node>
   </Nodes>
-  <Connections>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="21" Connection="Input5" />
-    </Connection>
-  </Connections>
+  <Connections />
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
